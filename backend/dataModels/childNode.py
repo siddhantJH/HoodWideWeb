@@ -1,9 +1,8 @@
 from pydantic import BaseModel
 
 
-
-class clildNodeData(BaseModel):
-    node_ip:str
+class clildRegistorData(BaseModel):
+    node_id:str
     node_port:str
     node_host:str
     is_node_active:bool
